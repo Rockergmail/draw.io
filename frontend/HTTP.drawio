@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T07:45:21.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="TZ71u48AxlnCw-0Rv86y" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T07:47:07.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="kxU8ABPGorFoQKEZtO6s" version="15.1.2" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -348,6 +348,12 @@
         <mxCell id="aL56AZ2Ny0tq0pcXlVUG-107" value="场景" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2680.0011111111116" y="620" width="80" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="aL56AZ2Ny0tq0pcXlVUG-145" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aL56AZ2Ny0tq0pcXlVUG-138" target="aL56AZ2Ny0tq0pcXlVUG-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aL56AZ2Ny0tq0pcXlVUG-146" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aL56AZ2Ny0tq0pcXlVUG-138" target="aL56AZ2Ny0tq0pcXlVUG-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aL56AZ2Ny0tq0pcXlVUG-138" value="设置" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2210.0011111111116" y="630" width="80" height="50" as="geometry" />
         </mxCell>
@@ -356,6 +362,12 @@
         </mxCell>
         <mxCell id="aL56AZ2Ny0tq0pcXlVUG-140" value="document.cookie" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2240.0011111111116" y="730" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aL56AZ2Ny0tq0pcXlVUG-147" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aL56AZ2Ny0tq0pcXlVUG-141" target="aL56AZ2Ny0tq0pcXlVUG-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aL56AZ2Ny0tq0pcXlVUG-149" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aL56AZ2Ny0tq0pcXlVUG-141" target="aL56AZ2Ny0tq0pcXlVUG-148">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aL56AZ2Ny0tq0pcXlVUG-141" value="特性" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2380.0011111111116" y="620" width="80" height="50" as="geometry" />
@@ -374,6 +386,9 @@
         </mxCell>
         <mxCell id="aL56AZ2Ny0tq0pcXlVUG-142" value="同域请求会带上cookie发送" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2410.0011111111116" y="730" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aL56AZ2Ny0tq0pcXlVUG-148" value="4k左右的大小" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2320.0011111111116" y="830" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
