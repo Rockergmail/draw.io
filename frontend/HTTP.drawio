@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T13:52:53.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="2IhiEYXgNG-hprn8ow2S" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T14:23:42.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="qWBKpn2HJpEuLzpZeOAe" version="15.0.6" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
-    <mxGraphModel dx="725" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,11 +598,23 @@
         <mxCell id="D0rE7KuRZ0bXg-JJAyEn-11" value="种类" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2046.5011111111116" y="340" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-12" value="公有缓存" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-12" value="共享" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="2085.5011111111116" y="421" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-13" value="私有缓存" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-13" value="私有" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="1995.5011111111116" y="411" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-18" value="Cache-Control" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2231.0011111111116" y="375" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-19" value="缓存控制" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2340.0011111111116" y="390" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-22" value="浏览器缓存" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1991.0011111111116" y="476" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D0rE7KuRZ0bXg-JJAyEn-23" value="代理缓存" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2095.5011111111116" y="490" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
