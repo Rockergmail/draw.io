@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T03:00:38.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="MB3QPiBysG3_ej3X3D4Q" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:06:50.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="MBJm6gJIJDQwApQHeWCB" version="15.3.0" type="github">
   <diagram id="-JzBLFplLaV225CV797J" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-1" value="闭包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="460" width="120" height="80" as="geometry" />
+          <mxGeometry x="400" y="600" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-2" value="调用栈" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="420" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-3" value="作用域" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="484" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="-190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-4" value="this" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="460" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-5" value="面向对象" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="640" width="120" height="80" as="geometry" />
@@ -55,6 +55,20 @@
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-21" value="布尔值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="-270" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-10" target="eDNpvIz1Y9Y7rq9U_7Sf-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-10" target="eDNpvIz1Y9Y7rq9U_7Sf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-10" target="eDNpvIz1Y9Y7rq9U_7Sf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-10" target="eDNpvIz1Y9Y7rq9U_7Sf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-10" value="对象" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="240" width="120" height="80" as="geometry" />
         </mxCell>
@@ -69,6 +83,18 @@
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-13" value="数字" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-24" value="数组" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-25" value="函数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-26" value="正则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-29" value="日期" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
