@@ -1,11 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T07:10:13.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="k9l1H5hfYMCI3R0eBvDf" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T07:13:57.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="zD6QH8VsE37wOXjcjCmJ" version="15.3.0" type="github">
   <diagram id="-JzBLFplLaV225CV797J" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.267;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-1" target="eDNpvIz1Y9Y7rq9U_7Sf-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-96" value="存储到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDNpvIz1Y9Y7rq9U_7Sf-95">
+          <mxGeometry x="-0.1521" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-1" value="闭包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="580" width="120" height="80" as="geometry" />
+          <mxGeometry x="-810" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-2" value="调用栈" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="430" width="120" height="80" as="geometry" />
@@ -57,6 +65,14 @@
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-90" value="存放到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDNpvIz1Y9Y7rq9U_7Sf-89">
           <mxGeometry x="0.1136" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-93" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-8" target="eDNpvIz1Y9Y7rq9U_7Sf-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-94" value="按值复制，在栈新分配空间和储存值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDNpvIz1Y9Y7rq9U_7Sf-93">
+          <mxGeometry x="-0.4346" y="1" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -249,7 +265,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-73" value="引用数据类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="-29" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="1" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDNpvIz1Y9Y7rq9U_7Sf-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eDNpvIz1Y9Y7rq9U_7Sf-75" target="eDNpvIz1Y9Y7rq9U_7Sf-77">
           <mxGeometry relative="1" as="geometry" />
