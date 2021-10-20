@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:44:09.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="4OaUc9kB8ctqkfOBijui" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T07:47:07.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="3zqmJjbZcVfrbsXQEwf0" version="15.5.6" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-123" value="Vue Cli" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-124" target="ZvWc7zO6iXN7wG1vsNxG-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-124" value="@vue/cli" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="210" width="120" height="60" as="geometry" />
         </mxCell>
@@ -24,6 +27,27 @@
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-126" value="@vue/cli-plugin-x" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-130" value="vue serve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-131" value="vue create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-132" target="ZvWc7zO6iXN7wG1vsNxG-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-132" target="ZvWc7zO6iXN7wG1vsNxG-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-132" target="ZvWc7zO6iXN7wG1vsNxG-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-132" value="vue命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvWc7zO6iXN7wG1vsNxG-133" value="vue ui&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
