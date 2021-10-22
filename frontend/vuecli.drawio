@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T07:45:11.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Z5XO5dOlQUlLg_Jkr2oK" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T07:45:40.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JKKtF3JO2Yt6EKTaWA2X" version="15.5.8" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -117,8 +117,17 @@
         <mxCell id="FP2wUxU0o3MczKa44YQf-7" value="社区插件vue-cli-plugin-" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="808" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H516AK7WeYCnwf0s0PQc-1" value="插件规范" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H516AK7WeYCnwf0s0PQc-1" value="插件文件组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H516AK7WeYCnwf0s0PQc-4" value="插件文件组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H516AK7WeYCnwf0s0PQc-5" value="插件文件组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="698" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H516AK7WeYCnwf0s0PQc-6" value="插件文件组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
