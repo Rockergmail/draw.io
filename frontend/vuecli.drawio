@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T06:24:04.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VlS95azkQMOuxIlk4HVm" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T06:35:20.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="SbTwgG3Sl6Ph1p35aGHj" version="15.5.8" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-124" value="@vue/cli" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="603" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="557.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-125" target="ZvWc7zO6iXN7wG1vsNxG-146" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -31,7 +31,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-125" value="@vue/cli-service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="853" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="807.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-126" target="FP2wUxU0o3MczKa44YQf-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,19 +40,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-126" value="@vue/cli-plugin-x" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1447.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1492.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-130" target="ZvWc7zO6iXN7wG1vsNxG-140" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-130" value="vue serve" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="603" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="557.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-131" target="ZvWc7zO6iXN7wG1vsNxG-138" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-131" value="vue create" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="503" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="457.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-132" target="ZvWc7zO6iXN7wG1vsNxG-131" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -64,25 +64,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-132" value="vue命令" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="603" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="557.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-133" target="ZvWc7zO6iXN7wG1vsNxG-141" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-133" value="vue ui&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="703" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="657.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-138" value="快速搭建一个新项目" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="503" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="457.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-140" value="构建新想法的原型" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="603" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="557.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-141" value="图形化界面管理你的所有项目" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="703" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="657.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-146" value="局部安装在每个 @vue/cli 创建的项目中" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="783" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="737.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZvWc7zO6iXN7wG1vsNxG-147" target="ZvWc7zO6iXN7wG1vsNxG-149" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -91,31 +91,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-147" value="构建于 webpack 和 webpack-dev-server 之上" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="923" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="877.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvWc7zO6iXN7wG1vsNxG-149" value="加载其它 CLI 插件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="873" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="827.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FP2wUxU0o3MczKa44YQf-1" target="FP2wUxU0o3MczKa44YQf-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-1" value="vue-cli-service 命令，提供 serve、build 和 inspect 命令" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="973" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="927.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-2" value="针对绝大部分应用优化过的内部的 webpack 配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="973" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="927.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FP2wUxU0o3MczKa44YQf-6" target="H516AK7WeYCnwf0s0PQc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-6" value="内建插件@vue/cli-plugin-" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1397.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="1442.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FP2wUxU0o3MczKa44YQf-7" target="H516AK7WeYCnwf0s0PQc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FP2wUxU0o3MczKa44YQf-7" value="社区插件vue-cli-plugin-" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1497.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="1542.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-1" target="H516AK7WeYCnwf0s0PQc-5">
           <mxGeometry relative="1" as="geometry" />
@@ -130,31 +130,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-1" value="插件文件组织" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="1397.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="1442.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-4" target="uyanek5PJyyTh4Yc653p-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uyanek5PJyyTh4Yc653p-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-4" target="uyanek5PJyyTh4Yc653p-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-4" value="generator目录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1498" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1497.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-5" target="H516AK7WeYCnwf0s0PQc-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-5" value="index.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1073" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1027.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-6" target="uyanek5PJyyTh4Yc653p-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-6" value="prompts.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1757.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H516AK7WeYCnwf0s0PQc-7" target="H516AK7WeYCnwf0s0PQc-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-7" value="ui.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1857.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-8" target="uyanek5PJyyTh4Yc653p-25">
           <mxGeometry relative="1" as="geometry" />
@@ -163,16 +163,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-8" value="service插件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1073" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1027.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-9" value="vue ui 集成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1857.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-2" value="初始化时，作为初始化预设的一部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="1293" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1247.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-4" value="vue add / vue invoke单独安装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="1393" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1347.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-5" target="uyanek5PJyyTh4Yc653p-2">
           <mxGeometry relative="1" as="geometry" />
@@ -181,7 +181,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-5" value="被调用场景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1343" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="1297.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-9" target="uyanek5PJyyTh4Yc653p-5">
           <mxGeometry relative="1" as="geometry" />
@@ -189,8 +189,11 @@
         <mxCell id="uyanek5PJyyTh4Yc653p-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-9" target="uyanek5PJyyTh4Yc653p-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-9" target="uyanek5PJyyTh4Yc653p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-9" value="generator.js、generator/index.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1498" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1497.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-13">
           <mxGeometry relative="1" as="geometry" />
@@ -198,11 +201,11 @@
         <mxCell id="uyanek5PJyyTh4Yc653p-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uyanek5PJyyTh4Yc653p-11" value="template目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1593" width="120" height="60" as="geometry" />
+        <mxCell id="uyanek5PJyyTh4Yc653p-11" value="渲染template目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1697.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-15" value="yaml配置替换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1750" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1747.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-18" target="uyanek5PJyyTh4Yc653p-23">
           <mxGeometry relative="1" as="geometry" />
@@ -210,23 +213,20 @@
         <mxCell id="uyanek5PJyyTh4Yc653p-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-18" target="uyanek5PJyyTh4Yc653p-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uyanek5PJyyTh4Yc653p-43" value="渲染" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-18" target="uyanek5PJyyTh4Yc653p-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-18" value="功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1507.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="1497.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-13" value="ejs渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1653" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1647.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-23" value="扩展包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1483" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1447.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-24" value="修改主文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1557.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1547.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-25" value="新增/修改cli-service命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1003" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="957.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-26" target="uyanek5PJyyTh4Yc653p-30">
           <mxGeometry relative="1" as="geometry" />
@@ -235,16 +235,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-26" value="修改webpack配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1143" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="1097.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-29" value="webpack-merge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="1193" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1147.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-30" value="webpack-chain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="1093" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1047.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-44" value="命令行提示变成选项object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1757.75" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
