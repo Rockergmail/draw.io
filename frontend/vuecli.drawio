@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T04:04:52.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JQbdbW8R1xnlBqedL_6U" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T04:08:43.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="cGIoySjQxdOgy5CizWA6" version="15.5.8" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -144,6 +144,12 @@
         <mxCell id="H516AK7WeYCnwf0s0PQc-7" value="ui.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="990" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-8" target="uyanek5PJyyTh4Yc653p-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-8" target="uyanek5PJyyTh4Yc653p-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-8" value="service插件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="698" width="120" height="60" as="geometry" />
         </mxCell>
@@ -177,23 +183,58 @@
         <mxCell id="uyanek5PJyyTh4Yc653p-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uyanek5PJyyTh4Yc653p-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-11" value="template目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uyanek5PJyyTh4Yc653p-13" value="ejs渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="880" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-15" value="yaml配置替换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="1230" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-18" target="uyanek5PJyyTh4Yc653p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-22" value="渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uyanek5PJyyTh4Yc653p-21">
+          <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-18" value="功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-13" value="ejs渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-11" target="uyanek5PJyyTh4Yc653p-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="910" as="sourcePoint" />
+            <mxPoint x="1270" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-23" value="扩展包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-24" value="修改主文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="868" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-25" value="新增/修改cli-service命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="568" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-26" target="uyanek5PJyyTh4Yc653p-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uyanek5PJyyTh4Yc653p-26" target="uyanek5PJyyTh4Yc653p-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-26" value="修改webpack配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="648" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-29" value="webpack-merge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="648" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-30" value="webpack-chain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="558" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
