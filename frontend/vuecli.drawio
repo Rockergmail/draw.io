@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T06:23:29.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="AB9tgnoOEbv6vhIAhv6T" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T06:24:04.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VlS95azkQMOuxIlk4HVm" version="15.5.8" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -148,13 +148,13 @@
           <mxGeometry x="830" y="1073" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-6" value="prompts.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1598" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H516AK7WeYCnwf0s0PQc-7" target="H516AK7WeYCnwf0s0PQc-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-7" value="ui.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1722" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H516AK7WeYCnwf0s0PQc-8" target="uyanek5PJyyTh4Yc653p-25">
           <mxGeometry relative="1" as="geometry" />
@@ -166,7 +166,7 @@
           <mxGeometry x="1000" y="1073" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H516AK7WeYCnwf0s0PQc-9" value="vue ui 集成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1722" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-2" value="初始化时，作为初始化预设的一部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="1293" width="120" height="60" as="geometry" />
@@ -242,6 +242,9 @@
         </mxCell>
         <mxCell id="uyanek5PJyyTh4Yc653p-30" value="webpack-chain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="1093" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uyanek5PJyyTh4Yc653p-44" value="命令行提示变成选项object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
