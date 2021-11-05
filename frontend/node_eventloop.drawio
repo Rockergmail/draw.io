@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T13:07:53.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O3Spfy8UhmEE57th4zhx" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T13:11:47.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eC5uZYMDCAHwjv_o7C0F" version="15.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QdE-qrafeCNu41vCoMA5-41" value="阻塞时间（最大值不超过INT_MAX） = 系统时间调度耗时 + 当前tick开始时间 + timeout - 当前tick开始时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="QdE-qrafeCNu41vCoMA5-41" value="阻塞时间（最大值不超过INT_MAX） = 入堆时tick的开始时间 + timeout&amp;nbsp;- 当前tick开始时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1120" y="350" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PQ7tGc95OdegTDhCW0nD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QdE-qrafeCNu41vCoMA5-42" target="PQ7tGc95OdegTDhCW0nD-27" edge="1">
