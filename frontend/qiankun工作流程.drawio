@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:17:03.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="b8hxrQkHqsddp-jZuiaq" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:22:40.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Wyh2gBOdC2KcPTm5h5tz" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="998" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,8 +259,20 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-64" value="&lt;b&gt;加载微应用&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="610" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-67" target="lGgZAqNjOKnBv1EABije-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-67" value="&lt;b&gt;tryToBootstrapAndMount&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1057" y="502" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-69" target="lGgZAqNjOKnBv1EABije-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-69" value="当前url路径是否匹配注册微应用的路径" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="610" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-72" value="对toUnLoad数组中的微应用，进行批量unload；对toUnmount数组中的微应用，进行批量unmount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="590" width="173" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
