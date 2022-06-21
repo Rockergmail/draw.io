@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:07:26.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="sSS4lWzceGN4Kx4EKI4f" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:15:55.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="aVgAcrEAItxcmHkdksvP" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="998" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-47" value="获取toUnload/toUnmount/toLoad/toMount这四种状态的微应用，分别放到4个数组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="63" width="230" height="50" as="geometry" />
+          <mxGeometry x="730" y="-45" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-49" target="lGgZAqNjOKnBv1EABije-52">
           <mxGeometry relative="1" as="geometry" />
@@ -210,31 +210,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-49" value="qiankun是否已经启动？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="525" y="170" width="180" height="40" as="geometry" />
+          <mxGeometry x="755" y="62" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-52" target="lGgZAqNjOKnBv1EABije-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-52" value="触发一系列single-spa的自定义事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="785" y="172" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-55" target="lGgZAqNjOKnBv1EABije-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-55" value="对toUnLoad数组中的微应用，进行批量unload：从appsToUnload数组中删除这个微应用，且删除微应用对象(app)的生命周期，以及置state为NOT_LOADED" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="492.5" y="390" width="245" height="70" as="geometry" />
+          <mxGeometry x="722.5" y="282" width="245" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-57" target="lGgZAqNjOKnBv1EABije-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-57" value="对toUnmount数组中的微应用，进行批量unmount：对微应用对象的state设为NOT_MOUNTED。然后批量unload" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="492.5" y="490" width="245" height="70" as="geometry" />
+          <mxGeometry x="722.5" y="382" width="245" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lGgZAqNjOKnBv1EABije-59" value="对toLoad数组中的微应用，进行批量load" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="600" width="250" height="60" as="geometry" />
+        <mxCell id="lGgZAqNjOKnBv1EABije-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-59" target="lGgZAqNjOKnBv1EABije-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-59" value="对toMount数组中的微应用，尝试bootstrap和挂载&lt;b&gt;tryToBootstrapAndMount&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="492" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-61" value="loadApp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-62" value="对toLoad数组中的微应用，&lt;b&gt;加载微应用&lt;/b&gt;，然后尝试bootstrap和挂载" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-65" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-64" target="lGgZAqNjOKnBv1EABije-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-64" target="lGgZAqNjOKnBv1EABije-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="850" />
+              <mxPoint x="100" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-64" value="&lt;b&gt;加载微应用&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGgZAqNjOKnBv1EABije-67" value="&lt;b&gt;tryToBootstrapAndMount&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="500" width="173" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
