@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T23:47:14.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="5AbB2oG1wnqtxDaNpPBZ" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-25T23:47:56.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GZaVYPOQ7_auKExEqOb2" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="729" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
         <mxCell id="8S1eeDxELuUDfH68Lifd-25" value="创建沙箱" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-630" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-27" value="调用script执行器(execScripts)，传入沙箱的代理对象作为全局对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-27" value="调用script执行器(execScripts)，传入沙箱的代理对象作为微应用的全局对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-730" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
