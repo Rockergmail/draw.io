@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T16:59:35.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="IN86WVkqoCHd6GC2g03E" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-25T17:16:16.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZkGjduIwGdiGIPn8bZ67" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="729" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -324,17 +324,17 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-81" value="当前url路径是否匹配注册微应用的路径" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="930" width="227" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lGgZAqNjOKnBv1EABije-83" value="进行批量mount：触发首次挂载钩子，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+        <mxCell id="lGgZAqNjOKnBv1EABije-83" value="对于toMount数组中的微应用，进行批量mount：触发首次挂载钩子，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1057" y="1040" width="173" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的loadApp方法" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的importEntry方法，获取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-390" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-9" value="对toLoad数组中的微应用，&lt;b&gt;加载微应用&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="492" y="600" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="-530" width="240" height="50" as="geometry" />
+          <mxGeometry x="-60" y="-490" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-15" value="检查子应用是否有导出bootstrap、mount、unmount生命周期函数，没有则报错" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-570" width="240" height="50" as="geometry" />
