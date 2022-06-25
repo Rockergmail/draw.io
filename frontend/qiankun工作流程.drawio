@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T23:07:48.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="xDoLmAd4urvk1qEIk-_i" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-25T23:08:14.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="S9EW2OPHsP7q79m98hDq" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="729" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-83" value="对于toMount数组中的微应用，进行批量mount：触发首次挂载钩子，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1057" y="1040" width="173" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的importEntry方法，获取入口html内容、script执行器以及资源加载的publicPath" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的&lt;b&gt;importEntry&lt;/b&gt;方法，获取入口html内容、script执行器以及资源加载的publicPath" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-345" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-9" value="对toLoad数组中的微应用，&lt;b&gt;加载微应用&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
