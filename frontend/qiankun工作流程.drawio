@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T11:45:35.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qGKBwz0NghgFqbUgKxdD" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-26T11:50:13.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="I6axNeZgK7QjNOfoViao" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
     <mxGraphModel dx="729" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -354,11 +354,14 @@
         <mxCell id="8S1eeDxELuUDfH68Lifd-20" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8S1eeDxELuUDfH68Lifd-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-19" value="&lt;b&gt;importEntry&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-340" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-21" value="assetsPublicPath的方法" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="-746" width="240" height="40" as="geometry" />
+          <mxGeometry x="-420" y="-950" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-23" target="8S1eeDxELuUDfH68Lifd-25">
           <mxGeometry relative="1" as="geometry" />
@@ -378,8 +381,8 @@
         <mxCell id="8S1eeDxELuUDfH68Lifd-27" value="调用script执行器(execScripts)，传入沙箱的代理对象作为微应用的全局对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="-830" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-28" value="execScripts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="-800" width="240" height="40" as="geometry" />
+        <mxCell id="8S1eeDxELuUDfH68Lifd-28" value="返回对象，属性：template（html文本）、assetPublicPath、getExternalScripts、getExternalStyleSheets、execScripts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-780" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-30" target="8S1eeDxELuUDfH68Lifd-27">
           <mxGeometry relative="1" as="geometry" />
@@ -408,17 +411,29 @@
         <mxCell id="8S1eeDxELuUDfH68Lifd-42" value="css.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-880" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="8S1eeDxELuUDfH68Lifd-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-43" target="8S1eeDxELuUDfH68Lifd-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-43" value="入口 html内容如果在缓存中，则直接返回缓存中内容；否则通过fetch加载html获取html文本" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-448" width="240" height="48" as="geometry" />
         </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-44" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-530" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="8S1eeDxELuUDfH68Lifd-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-45" target="8S1eeDxELuUDfH68Lifd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8S1eeDxELuUDfH68Lifd-45" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-604" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-46" value="通过fetch获取远程样式表、获取行内样式，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-46" target="8S1eeDxELuUDfH68Lifd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S1eeDxELuUDfH68Lifd-46" value="获取行内样式、通过fetch获取远程样式表，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-413" y="-680" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8S1eeDxELuUDfH68Lifd-52" value="execScripts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-1020" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
