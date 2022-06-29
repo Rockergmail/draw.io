@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T14:34:08.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="krjwfUQ3zg1ZVvWOZ8C9" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-29T07:44:11.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o81zY5GkzTxmq3OnIpKW" version="20.0.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总流程">
-    <mxGraphModel dx="786" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -65,7 +65,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_sBZM-Ol1L8ahuKhueGl" name="劫持/注册/启动">
-    <mxGraphModel dx="1510" dy="2881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-3" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-37" target="128P70wkXmWhqezXWKxd-2">
+        <mxCell id="128P70wkXmWhqezXWKxd-3" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lGgZAqNjOKnBv1EABije-37" target="128P70wkXmWhqezXWKxd-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-37" value="预加载微应用策略&lt;b&gt;doPrefetchStrategy&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
@@ -212,10 +212,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-49" target="8S1eeDxELuUDfH68Lifd-9">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lGgZAqNjOKnBv1EABije-49" target="8S1eeDxELuUDfH68Lifd-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8S1eeDxELuUDfH68Lifd-10">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8S1eeDxELuUDfH68Lifd-10" vertex="1" connectable="0">
           <mxGeometry x="-0.7535" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -250,10 +250,10 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-59" value="对toMount数组中的微应用，尝试bootstrap和挂载:&amp;nbsp;&lt;b&gt;tryToBootstrapAndMount&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="492" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-5" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-61" target="lGgZAqNjOKnBv1EABije-33">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-5" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lGgZAqNjOKnBv1EABije-61" target="lGgZAqNjOKnBv1EABije-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-61" target="8S1eeDxELuUDfH68Lifd-6">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lGgZAqNjOKnBv1EABije-61" target="8S1eeDxELuUDfH68Lifd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGgZAqNjOKnBv1EABije-61" value="&lt;b&gt;loadApp&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
@@ -265,7 +265,7 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-65" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lGgZAqNjOKnBv1EABije-64" target="8S1eeDxELuUDfH68Lifd-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="lGgZAqNjOKnBv1EABije-64" target="lGgZAqNjOKnBv1EABije-61">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" parent="1" source="lGgZAqNjOKnBv1EABije-64" target="lGgZAqNjOKnBv1EABije-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="602" y="830" />
@@ -327,160 +327,160 @@
         <mxCell id="lGgZAqNjOKnBv1EABije-81" value="当前url路径是否匹配注册微应用的路径" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="930" width="227" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lGgZAqNjOKnBv1EABije-83" value="对于toMount数组中的微应用，进行批量mount：设置当前微应用对象的state为NOT_MOUNTED、触发首次挂载钩子&amp;nbsp;single-spa:first-mount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1048" y="1040" width="193" height="70" as="geometry" />
+        <mxCell id="lGgZAqNjOKnBv1EABije-83" value="对于toMount数组中的微应用，进行批量mount：逐个执行微应用对象app的mount方法，&lt;br&gt;设置当前微应用对象的state置为MOUNTED、触发首次挂载钩子&amp;nbsp;single-spa:first-mount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1048" y="1040" width="193" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-6" target="8S1eeDxELuUDfH68Lifd-14">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-6" target="8S1eeDxELuUDfH68Lifd-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的&lt;b&gt;importEntry&lt;/b&gt;方法，获取入口html内容、script执行器(execScripts)以及资源加载的publicPath" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-6" value="调用import-html-entry的&lt;b&gt;importEntry&lt;/b&gt;方法，获取入口html内容、script执行器(execScripts)以及资源加载的publicPath" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-345" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-9" value="对toLoad数组中的微应用，&lt;b&gt;加载微应用&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-9" value="对toLoad数组中的微应用，&lt;b&gt;加载微应用&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="492" y="600" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-14" target="8S1eeDxELuUDfH68Lifd-23">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-14" target="8S1eeDxELuUDfH68Lifd-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-14" value="如果是单例模式，需要等待其他微应用完成unmount再加载目标微应用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-14" value="如果是单例模式，需要等待其他微应用完成unmount再加载目标微应用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-440" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-15" target="8S1eeDxELuUDfH68Lifd-16">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-15" target="8S1eeDxELuUDfH68Lifd-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-15" value="检查子应用是否有导出bootstrap、mount、unmount生命周期函数，没有则报错" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-15" value="检查子应用是否有导出bootstrap、mount、unmount生命周期函数，没有则报错" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-1450" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-16" value="子应用对象app，置status为NOT_BOOTSTRAPPED，以及对几个参数做格式化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-16" value="子应用对象app，置status为NOT_BOOTSTRAPPED，以及对几个参数做格式化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-1540" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-20" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-6">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-20" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-43">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-19" target="8S1eeDxELuUDfH68Lifd-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-19" value="&lt;b&gt;importEntry&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-19" value="&lt;b&gt;importEntry&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-340" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-23" target="8S1eeDxELuUDfH68Lifd-25">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-23" target="8S1eeDxELuUDfH68Lifd-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-23" target="8S1eeDxELuUDfH68Lifd-63">
+        <mxCell id="128P70wkXmWhqezXWKxd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" source="8S1eeDxELuUDfH68Lifd-23" target="8S1eeDxELuUDfH68Lifd-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-23" value="用div#__qiankun_microapp_wrapper_for_微应用名字__来包裹入口html内容，然后挂载到微应用容器中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-23" value="用div#__qiankun_microapp_wrapper_for_微应用名字__来包裹入口html内容，然后挂载到微应用容器中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-530" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-25" target="8S1eeDxELuUDfH68Lifd-30">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-25" target="8S1eeDxELuUDfH68Lifd-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-25" value="创建沙箱" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-25" value="创建沙箱" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-630" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-27" target="8S1eeDxELuUDfH68Lifd-31">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-27" target="8S1eeDxELuUDfH68Lifd-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-27" value="调用script执行器(&lt;b&gt;execScripts&lt;/b&gt;)，传入沙箱的代理对象作为微应用的全局对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-27" value="调用script执行器(&lt;b&gt;execScripts&lt;/b&gt;)，传入沙箱的代理对象作为微应用的全局对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-830" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-28" value="返回对象，属性：template（html文本）、assetPublicPath、getExternalScripts、getExternalStyleSheets、execScripts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-28" value="返回对象，属性：template（html文本）、assetPublicPath、getExternalScripts、getExternalStyleSheets、execScripts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-730" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-30" target="8S1eeDxELuUDfH68Lifd-27">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-30" target="8S1eeDxELuUDfH68Lifd-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-30" value="执行beforeLoad钩子" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-30" value="执行beforeLoad钩子" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-720" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-31" target="8S1eeDxELuUDfH68Lifd-32">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-31" target="8S1eeDxELuUDfH68Lifd-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-31" value="取出微应用导出的bootstrap、mount、unmount、update生命周期函数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-31" value="取出微应用导出的bootstrap、mount、unmount、update生命周期函数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-920" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-32" target="8S1eeDxELuUDfH68Lifd-33">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-32" target="8S1eeDxELuUDfH68Lifd-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-32" value="取出用于跟当前微应用通讯的方法：onGlobalStateChange, setGlobalState, offGlobalStateChange" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-32" value="取出用于跟当前微应用通讯的方法：onGlobalStateChange, setGlobalState, offGlobalStateChange" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-1040" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-33" target="8S1eeDxELuUDfH68Lifd-15">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-33" target="8S1eeDxELuUDfH68Lifd-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-33" value="返回微应用对象(app)，其中有bootstrap、mount和unmount这三个生命周期钩子属性。&lt;br&gt;&lt;br&gt;bootstrap就是用户提供的bootstrap方法。&lt;br&gt;&lt;br&gt;mount封装了以下方法：挂载前用户提供的loader(true)、确保每次应用加载前容器 dom 结构已经设置完毕、挂载沙箱、触发beforeMount钩子、微应用提供的mount方法、再次确保每次应用加载前容器 dom 结构已经设置完毕、触发afterMount钩子、挂载后用户提供的loader(false)&lt;br&gt;&lt;br&gt;unmount封装了以下方法：触发beforeUnmount钩子、调用微应用提供的unmount方法、触发afterUnmount钩子、删除&lt;span style=&quot;text-align: center;&quot;&gt;div#__qiankun_microapp_wrapper_for_微应用名字__&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-33" value="返回微应用对象(app)，其中有bootstrap、mount和unmount这三个生命周期钩子属性。&lt;br&gt;&lt;br&gt;bootstrap就是用户提供的bootstrap方法。&lt;br&gt;&lt;br&gt;mount封装了以下方法：挂载前用户提供的loader(true)、确保每次应用加载前容器 dom 结构已经设置完毕、挂载沙箱、触发beforeMount钩子、微应用提供的mount方法、再次确保每次应用加载前容器 dom 结构已经设置完毕、触发afterMount钩子、挂载后用户提供的loader(false)&lt;br&gt;&lt;br&gt;unmount封装了以下方法：触发beforeUnmount钩子、调用微应用提供的unmount方法、触发afterUnmount钩子、删除&lt;span style=&quot;text-align: center;&quot;&gt;div#__qiankun_microapp_wrapper_for_微应用名字__&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="-90" y="-1330" width="320" height="228.15" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-43" target="8S1eeDxELuUDfH68Lifd-44">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-43" target="8S1eeDxELuUDfH68Lifd-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-43" value="入口 html内容如果在缓存中，则直接返回缓存中内容；否则通过fetch加载html获取html文本" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-43" value="入口 html内容如果在缓存中，则直接返回缓存中内容；否则通过fetch加载html获取html文本" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-422" width="240" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-44" target="8S1eeDxELuUDfH68Lifd-45">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-44" target="8S1eeDxELuUDfH68Lifd-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-44" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-44" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-499" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-45" target="8S1eeDxELuUDfH68Lifd-46">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-45" target="8S1eeDxELuUDfH68Lifd-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-45" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-45" value="通过正则提取script标签url、style标签url" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-570" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-46" target="8S1eeDxELuUDfH68Lifd-28">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-46" target="8S1eeDxELuUDfH68Lifd-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-46" value="获取行内样式、通过fetch获取远程样式表，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-46" value="获取行内样式、通过fetch获取远程样式表，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-640" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-56" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-52" target="8S1eeDxELuUDfH68Lifd-27">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-56" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8S1eeDxELuUDfH68Lifd-52" target="8S1eeDxELuUDfH68Lifd-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-52" target="8S1eeDxELuUDfH68Lifd-57">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-52" target="8S1eeDxELuUDfH68Lifd-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-52" value="&lt;b&gt;execScripts&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-52" value="&lt;b&gt;execScripts&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-826" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-57" target="8S1eeDxELuUDfH68Lifd-59">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-57" target="8S1eeDxELuUDfH68Lifd-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-57" value="获取行内脚本、通过fetch获取远程脚本，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-57" value="获取行内脚本、通过fetch获取远程脚本，作为文本，替换&amp;lt;style&amp;gt;&amp;lt;link&amp;gt;标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-900" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8S1eeDxELuUDfH68Lifd-59" target="8S1eeDxELuUDfH68Lifd-61">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8S1eeDxELuUDfH68Lifd-59" target="8S1eeDxELuUDfH68Lifd-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-59" value="对每个script文本，再用iife封装，传入window对象。此时传入的windo对象是window代理对象。存在window.proxy下" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-59" value="对每个script文本，再用iife封装，传入window对象。此时传入的windo对象是window代理对象。存在window.proxy下" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-1000" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-61" value="通过(0, eval)来使代码在全局下执行，并绑定this为原生的window对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-61" value="通过(0, eval)来使代码在全局下执行，并绑定this为原生的window对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-1080" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S1eeDxELuUDfH68Lifd-63" value="createElement的时候，对样式做隔离" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="8S1eeDxELuUDfH68Lifd-63" value="createElement的时候，对样式做隔离" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="-720" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="128P70wkXmWhqezXWKxd-2" target="128P70wkXmWhqezXWKxd-4">
+        <mxCell id="128P70wkXmWhqezXWKxd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="128P70wkXmWhqezXWKxd-2" target="128P70wkXmWhqezXWKxd-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-2" value="&lt;b&gt;doPrefetchStrategy&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="128P70wkXmWhqezXWKxd-2" value="&lt;b&gt;doPrefetchStrategy&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1130" y="-340" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="128P70wkXmWhqezXWKxd-4" target="128P70wkXmWhqezXWKxd-5">
+        <mxCell id="128P70wkXmWhqezXWKxd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="128P70wkXmWhqezXWKxd-4" target="128P70wkXmWhqezXWKxd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-4" value="&lt;span&gt;不同策略只是在不同时机调用prefetch方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="128P70wkXmWhqezXWKxd-4" value="&lt;span&gt;不同策略只是在不同时机调用prefetch方法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1130" y="-260" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="128P70wkXmWhqezXWKxd-5" target="128P70wkXmWhqezXWKxd-6">
+        <mxCell id="128P70wkXmWhqezXWKxd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="128P70wkXmWhqezXWKxd-5" target="128P70wkXmWhqezXWKxd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-5" value="requestIdleCallback执行importEntry，拿到scripts和style的连接" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="128P70wkXmWhqezXWKxd-5" value="requestIdleCallback执行importEntry，拿到scripts和style的连接" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1120" y="-174" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="128P70wkXmWhqezXWKxd-6" value="requestIdleCallback下载scripts&lt;br&gt;requestIdleCallback下载style" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="128P70wkXmWhqezXWKxd-6" value="requestIdleCallback下载scripts&lt;br&gt;requestIdleCallback下载style" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1120" y="-93" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
