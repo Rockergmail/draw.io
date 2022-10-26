@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T13:50:24.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="uo6zquYNY5gnPKDpbk1g" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T13:55:55.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="y4fod2i6sOCJ9JPaZLy2" version="20.5.1" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="1613" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,13 +85,16 @@
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-10" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="630" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-14" value="vue的话需要重写或者继承，那么它是如何做到的？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-11" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="640" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-12" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="630" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-13" value="这里可以回答到为什么不劫持xhr和fetch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-13" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="630" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
