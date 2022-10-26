@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T05:13:11.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gem6c33CRoDKUWd5T3FF" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T05:14:26.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YzVEI9AAkJTnX0p_Yx-W" version="20.2.2" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="786" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
         <mxCell id="4JxSbWImmoZFP9Ur36Un-11" value="class Hub&lt;br&gt;_stack: []&lt;br&gt;...以及一些暴漏出去的api" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="605" y="175" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;session&lt;br&gt;&lt;div style=&quot;&quot;&gt;span&lt;/div&gt;&lt;div style=&quot;&quot;&gt;breakdcrumb&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tags&lt;/div&gt;&lt;div style=&quot;&quot;&gt;extra&lt;/div&gt;&lt;div style=&quot;&quot;&gt;clientinfo在这里&lt;/div&gt;&lt;div style=&quot;&quot;&gt;...以及一些暴漏出去的api&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="605" y="260" width="160" height="140" as="geometry" />
+        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;session&lt;br&gt;&lt;div style=&quot;&quot;&gt;span&lt;/div&gt;&lt;div style=&quot;&quot;&gt;breakdcrumb&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tags&lt;/div&gt;&lt;div style=&quot;&quot;&gt;extra&lt;/div&gt;&lt;div style=&quot;&quot;&gt;...以及一些暴漏出去的api&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;static client&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="250" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
