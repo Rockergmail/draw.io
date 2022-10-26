@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T13:21:06.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="c1l_wkbZ3kpl3jaxI_kf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T13:23:17.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1u-g2WA2IrCxi1VfOpkN" version="20.5.1" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="1613" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,16 +44,16 @@
           <mxGeometry x="-150" y="460" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4JxSbWImmoZFP9Ur36Un-17" value="startTrackingLongTasks" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="510" width="140" height="30" as="geometry" />
+          <mxGeometry x="125" y="555" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4JxSbWImmoZFP9Ur36Un-18" value="instrumentRouting" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="560" width="140" height="30" as="geometry" />
+          <mxGeometry x="550" y="580" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4JxSbWImmoZFP9Ur36Un-19" value="registerBackgroundTabDetection" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="610" width="200" height="30" as="geometry" />
+          <mxGeometry x="520" y="630" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4JxSbWImmoZFP9Ur36Un-20" value="instrumentOutgoingRequests" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="145" y="660" width="180" height="30" as="geometry" />
+          <mxGeometry x="535" y="680" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-1" value="_trackCLS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="555" width="140" height="30" as="geometry" />
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-8" value="timeOrigin的取法，以及performance的api的用法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="460" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-9" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="630" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
