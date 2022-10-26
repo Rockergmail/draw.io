@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T14:10:29.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OjYyZrvQgskFiwqdLGeb" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T14:16:27.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8jl3LwusTo1qCuWSfAbV" version="20.5.1" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="1613" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="MK3jpLfj4tk0xaLqlPoM-15" value="default integrations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1400" y="545" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-16" value="&lt;div&gt;new CoreIntegrations.InboundFilters(),过滤个别内部错误，不是每个错误都需要被捕获&lt;/div&gt;&lt;div&gt;&amp;nbsp; new CoreIntegrations.FunctionToString(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new TryCatch(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new Breadcrumbs(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new GlobalHandlers(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new LinkedErrors(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new Dedupe(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new HttpContext(),&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-16" value="&lt;div&gt;new CoreIntegrations.InboundFilters(),过滤个别内部错误，不是每个错误都需要被捕获&lt;/div&gt;&lt;div&gt;&amp;nbsp; new CoreIntegrations.FunctionToString(),看起来是sentry会对某些函数做一些包装。然后toString方法的时候获取真实的名字&lt;/div&gt;&lt;div&gt;&amp;nbsp; new TryCatch(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new Breadcrumbs(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new GlobalHandlers(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new LinkedErrors(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new Dedupe(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; new HttpContext(),&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1330" y="590" width="260" height="150" as="geometry" />
         </mxCell>
       </root>
