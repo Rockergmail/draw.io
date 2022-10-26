@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T03:52:00.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="G0x1SfRUio0W-RCeNujq" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T04:52:34.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="I72RH9b9jhT5U1Bl_ac-" version="20.2.2" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="786" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,11 +28,11 @@
         <mxCell id="4JxSbWImmoZFP9Ur36Un-10" value="class BrowserClient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="605" y="75" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4JxSbWImmoZFP9Ur36Un-11" value="class Hub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="605" y="190" width="80" height="30" as="geometry" />
+        <mxCell id="4JxSbWImmoZFP9Ur36Un-11" value="class Hub&lt;br&gt;_stack: []&lt;br&gt;...以及一些暴漏出去的api" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="175" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="605" y="315" width="90" height="30" as="geometry" />
+        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;session&lt;br&gt;&lt;div style=&quot;&quot;&gt;span&lt;/div&gt;&lt;div style=&quot;&quot;&gt;breakdcrumb&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tags&lt;/div&gt;&lt;div style=&quot;&quot;&gt;extra&lt;/div&gt;&lt;div style=&quot;&quot;&gt;...以及一些暴漏出去的api&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="265" width="160" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
