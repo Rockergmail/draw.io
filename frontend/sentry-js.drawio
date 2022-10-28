@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T09:58:56.128Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NJad8Gy5uyzSN03bwFkB" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T03:12:23.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="poz-bCzhxCxdl_rCsyVc" version="20.5.1" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="1613" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="4JxSbWImmoZFP9Ur36Un-11" value="class Hub&lt;br&gt;_stack: []&lt;br&gt;...以及一些暴漏出去的api" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="605" y="175" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;session&lt;br&gt;&lt;div style=&quot;&quot;&gt;span&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;transaction&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;breakdcrumb&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tags&lt;/div&gt;&lt;div style=&quot;&quot;&gt;extra&lt;/div&gt;&lt;div style=&quot;&quot;&gt;...以及一些暴漏出去的api&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;static client&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="4JxSbWImmoZFP9Ur36Un-12" value="class Scope&lt;br&gt;session&lt;br&gt;&lt;div style=&quot;&quot;&gt;span&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;transaction&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;breakdcrumb&lt;/div&gt;&lt;div style=&quot;&quot;&gt;user&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tags&lt;/div&gt;&lt;div style=&quot;&quot;&gt;extra&lt;/div&gt;&lt;div style=&quot;&quot;&gt;...以及一些暴漏出去的api&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;static client&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="605" y="245" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="4JxSbWImmoZFP9Ur36Un-14" value="&lt;span style=&quot;&quot;&gt;setupIntegrations()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -55,49 +55,49 @@
         <mxCell id="4JxSbWImmoZFP9Ur36Un-20" value="instrumentOutgoingRequests" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="560" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-1" value="_trackCLS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-1" value="_trackCLS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-370" y="555" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-2" value="_trackLCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-2" value="_trackLCP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="555" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-3" value="_trackFID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-3" value="_trackFID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="555" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-4" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-4" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-370" y="630" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-5" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-5" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-200" y="630" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-6" value="lastEntry.startTime -&amp;nbsp; navgationEntry.activationStart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-6" value="lastEntry.startTime -&amp;nbsp; navgationEntry.activationStart" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-200" y="690" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-7" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-7" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="630" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-8" value="timeOrigin的取法，以及performance的api的用法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-8" value="timeOrigin的取法，以及performance的api的用法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-430" y="460" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-9" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-9" value="new PerformanceObserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="125" y="630" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-10" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-10" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="630" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-14" value="vue的话需要重写或者继承，那么它是如何做到的？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-14" value="vue的话需要重写或者继承，那么它是如何做到的？" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="710" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-11" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-11" value="好像是用了一些方法去自定义记录一些参数，然后记录到span的transaction上" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="640" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-12" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-12" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="630" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-13" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-13" value="hijack xhr.和 fetch，之前会过滤了一些url，譬如说local或者没有前缀的，以及包括sentry的url，这些不需要新建span的transtion" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="630" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MK3jpLfj4tk0xaLqlPoM-15" value="default integrations:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;new CoreIntegrations.InboundFilters(),过滤个别内部错误，不是每个错误都需要被捕获&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new CoreIntegrations.FunctionToString(),看起来是sentry会对某些函数做一些包装。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;然后&lt;span style=&quot;background-color: initial;&quot;&gt;toString方法的时候获取真实的名字&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new TryCatch(),劫持setTimeout/Interval xhr raf eventTarget的addEventListener和removeListener函数，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;也就是需要传入函数的方法，异步函数错误都劫持了。错误的时候catch异常，进行一系列的处理，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;封装错误信息并上报。且会考虑上报几率就是通过Math.random（）来和上报几率来做比较。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;以及提供更好的数据格式以方便上报&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new Breadcrumbs(),对console xhr dom fetch history 等api做了劫持，记录breadcurmb信息，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;也就是用户操作以及console和发送请求的记录&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new GlobalHandlers(), 劫持/绑定 onerror、onunhandlerejection事件，处理error对象，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;根据不同的error对象进行处理帮上传&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new LinkedErrors(),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new Dedupe(),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new HttpContext(),&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="MK3jpLfj4tk0xaLqlPoM-15" value="default integrations:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;new CoreIntegrations.InboundFilters(),过滤个别内部错误，不是每个错误都需要被捕获&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new CoreIntegrations.FunctionToString(),看起来是sentry会对某些函数做一些包装。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;然后&lt;span style=&quot;background-color: initial;&quot;&gt;toString方法的时候获取真实的名字&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new TryCatch(),劫持setTimeout/Interval xhr raf eventTarget的addEventListener和removeListener函数，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;也就是需要传入函数的方法，异步函数错误都劫持了。错误的时候catch异常，进行一系列的处理，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;封装错误信息并上报。且会考虑上报几率就是通过Math.random（）来和上报几率来做比较。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;以及提供更好的数据格式以方便上报&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new Breadcrumbs(),对console xhr dom fetch history 等api做了劫持，记录breadcurmb信息，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;也就是用户操作以及console和发送请求的记录&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new GlobalHandlers(), 劫持/绑定 onerror、onunhandlerejection事件，处理error对象，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;根据不同的error对象进行处理帮上传。上传也通过了一系列的处理。需要详细去看。且重点去看&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new LinkedErrors(),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new Dedupe(),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; new HttpContext(),&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1210" y="500" width="580" height="320" as="geometry" />
         </mxCell>
       </root>
