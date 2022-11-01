@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:38:42.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QswcNr8KbbR2leVItQdZ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T08:07:15.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="d2qWwUsGNhuNXznTxO3k" version="20.5.1" type="github">
   <diagram id="S6Es-kQb0I0hB4wbNMsK" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,10 +104,16 @@
           <mxGeometry x="2200" y="410" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZbhmvBUmvw65U284pFuv-3" value="attachErrorHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="560" width="130" height="30" as="geometry" />
+          <mxGeometry x="2055" y="510" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZbhmvBUmvw65U284pFuv-4" value="createTracingMixins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="560" width="140" height="30" as="geometry" />
+          <mxGeometry x="2380" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbhmvBUmvw65U284pFuv-5" value="app.config.errorHandler，捕获error然后通过captureException&lt;br&gt;来上报error，&lt;br&gt;还有通过设置scope设置上下文，记录当前vue组件的metadata，&lt;br&gt;包括组件名、trace、lifecycleHood，propsData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="570" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbhmvBUmvw65U284pFuv-6" value="app.mixin，对生命钩子，添加span" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="580" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
