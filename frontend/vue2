@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T08:13:59.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BEgmfUjp44d-Joh4o8xF" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T08:14:46.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="m7eetEp10fSeL77Cw9Tf" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1613" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="ZI6WBaBavEsHv0OuYFD6-0" value="赋值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="610" width="86" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZI6WBaBavEsHv0OuYFD6-3" value="dep.notify()派发依赖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-3" value="dep.notify()派发依赖。watcher去重，执行队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="266" y="690" width="154" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZI6WBaBavEsHv0OuYFD6-6" value="watcher的lazy选项为true，即为computed，如果dirty标记为true，则需要重新计算，否则直接读缓存就OK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
