@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T08:33:59.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6MfGKorp70NriisDn1g1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T08:35:36.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RtAOhi7c1chxx71DOGU_" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1613" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,9 @@
         </mxCell>
         <mxCell id="ZI6WBaBavEsHv0OuYFD6-9" value="watcher有某个属性是标识当前变量是用户级别的watcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="910" y="330" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-18" value="调用mount方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-86" y="1020" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
