@@ -1,17 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T02:55:06.916Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Xa1KLAG9vQsuT_85RB00" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T03:05:55.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Sgs3bWLtlQpPHBGY2TBA" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="786" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FgIvCYDX9Px_XQth_jWf-0" target="FgIvCYDX9Px_XQth_jWf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337" y="160" />
+              <mxPoint x="273" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FgIvCYDX9Px_XQth_jWf-0" target="FgIvCYDX9Px_XQth_jWf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337" y="160" />
+              <mxPoint x="403" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-0" value="响应式系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="294" y="100" width="86" height="30" as="geometry" />
+          <mxGeometry x="294" y="50" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-1" value="观察者模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="170" width="86" height="30" as="geometry" />
+          <mxGeometry x="360" y="200" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-2" value="数据劫持" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="170" width="86" height="30" as="geometry" />
+          <mxGeometry x="230" y="200" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-5" value="对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="360" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-6" value="对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="328" y="360" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-7" value="Object.defineProperty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="208" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-8" value="get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="196" y="450" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-9" value="set" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="450" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-10" value="收集依赖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="540" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FgIvCYDX9Px_XQth_jWf-11" value="触发更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="540" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
