@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T08:03:26.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hUl-pThkxRdpUT8vq6FS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T08:13:59.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BEgmfUjp44d-Joh4o8xF" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1613" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -59,6 +59,9 @@
         <mxCell id="FgIvCYDX9Px_XQth_jWf-10" value="收集依赖" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="196" y="520" width="86" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FgIvCYDX9Px_XQth_jWf-11" target="ZI6WBaBavEsHv0OuYFD6-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-11" value="触发更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="520" width="86" height="30" as="geometry" />
         </mxCell>
@@ -89,14 +92,32 @@
         <mxCell id="FgIvCYDX9Px_XQth_jWf-22" value="派发操作" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="400" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FgIvCYDX9Px_XQth_jWf-25" target="FgIvCYDX9Px_XQth_jWf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-25" value="new dep().depend()订阅当前watcher" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="162" y="585" width="154" height="30" as="geometry" />
+          <mxGeometry x="112" y="600" width="154" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-26" value="返回数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="196" y="670" width="86" height="30" as="geometry" />
+          <mxGeometry x="110" y="690" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FgIvCYDX9Px_XQth_jWf-28" value="问题：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 普通变量怎么做？应该是data本来就是个obj吧&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 自定义watcher和computed，是什么时候绑定和通知的？&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-170" y="530" width="340" height="60" as="geometry" />
+          <mxGeometry x="-290" y="530" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZI6WBaBavEsHv0OuYFD6-0" target="ZI6WBaBavEsHv0OuYFD6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-0" value="赋值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="610" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-3" value="dep.notify()派发依赖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="266" y="690" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-6" value="watcher的lazy选项为true，即为computed，如果dirty标记为true，则需要重新计算，否则直接读缓存就OK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="270" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI6WBaBavEsHv0OuYFD6-9" value="watcher有某个属性是标识当前变量是用户级别的watcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="330" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
