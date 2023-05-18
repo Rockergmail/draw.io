@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T03:02:03.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="21pUnhk3JZ5tNeMlRvOh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T03:19:51.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Scn8WTtjD7VElRatV0b3" version="21.3.2" type="github">
   <diagram name="第 1 页" id="ypo8qqracdCLZP18u5ZS">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-1" value="东锦江网关&lt;br&gt;&lt;br&gt;nginx规则分发:&lt;br&gt;&lt;br&gt;前端静态资源访问本机&lt;br&gt;&lt;br&gt;后端接口访问不同的服务器" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=90;entryPerimeter=0;" edge="1" parent="1" source="2Ao8xp8TEhb6nUeUJv9U-2" target="2Ao8xp8TEhb6nUeUJv9U-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="145" />
+              <mxPoint x="270" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2Ao8xp8TEhb6nUeUJv9U-2" target="2Ao8xp8TEhb6nUeUJv9U-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-7" value="切dns" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Ao8xp8TEhb6nUeUJv9U-6">
+          <mxGeometry x="-0.2849" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-2" value="生产的域名crs.bestwehotel.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ao8xp8TEhb6nUeUJv9U-3" value="华为云网关&lt;br&gt;&lt;br&gt;nginx规则分发&lt;br&gt;&lt;br&gt;前端静态资源访问obs&lt;br&gt;&lt;br&gt;后端接口访问不同的服务器" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
